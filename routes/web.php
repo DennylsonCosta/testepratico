@@ -20,3 +20,6 @@ Route::post('problema1', 'problema1Controller@recibo');
 
 Route::get('problema2', 'problema2Controller@index')->name('Problema 2');
 Route::post('problema2', 'problema2Controller@gerar');
+
+Route::get('problema3', 'problema3Controller@index')->name('Problema 3');
+Route::post('problema3', 'problema3Controller@exibir');
