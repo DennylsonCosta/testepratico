@@ -48,6 +48,7 @@
                     <li><a href="{{ route('Problema 1') }}">Problema 1</a></li>
                     <li class="active"><a href="{{ route('Problema 2') }}">Problema 2</a></li>
                     <li><a href="{{ route('Problema 3') }}">Problema 3</a></li>
+                    <li><a href="{{ route('Problema 4') }}">Problema 4</a></li>
                 </ul>
                 <br>
             </div>
@@ -66,12 +67,12 @@
                     <h4>Matrizes geradas: {{ $quant }}</h4>
                 @endisset
                 {{ Form::open(array('url' => 'problema2','action' => 'problema1Controller@gerar')) }}
-                <p>
-                    {{ Form::label('Gerar Matriz', 'Gerar Matriz') }}
-                </p>
-                <p>
-                    {{ Form::submit('Gerar', array('class' => 'btn btn-success')) }}
-                </p>
+                    <p>
+                        {{ Form::label('Gerar Matriz', 'Gerar Matriz') }}
+                    </p>
+                    <p>
+                        {{ Form::submit('Gerar', array('class' => 'btn btn-success')) }}
+                    </p>
                 {{ Form::close() }}
                 <hr>
 

@@ -45,6 +45,7 @@
                     <li><a href="{{ route('Problema 1') }}">Problema 1</a></li>
                     <li><a href="{{ route('Problema 2') }}">Problema 2</a></li>
                     <li class="active"><a href="{{ route('Problema 3') }}">Problema 3</a></li>
+                    <li><a href="{{ route('Problema 4') }}">Problema 4</a></li>
                 </ul><br>
             </div>
     
@@ -61,9 +62,9 @@
 
                 <hr>
                 {{ Form::open(array('url' => 'problema3','action' => 'problema1Controller@exibir')) }}
-                <p>
-                    {{ Form::submit('Exibir resultado', array('class' => 'btn btn-success')) }}
-                </p>
+                    <p>
+                        {{ Form::submit('Exibir resultado', array('class' => 'btn btn-success')) }}
+                    </p>
                 {{ Form::close() }}
                 <hr>
                 

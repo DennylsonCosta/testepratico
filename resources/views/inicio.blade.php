@@ -42,6 +42,7 @@
                 <li><a href="{{ route('Problema 1') }}">Problema 1</a></li>
                 <li><a href="{{ route('Problema 2') }}">Problema 2</a></li>
                 <li><a href="{{ route('Problema 3') }}">Problema 3</a></li>
+                <li><a href="{{ route('Problema 4') }}">Problema 4</a></li>
             </ul>
             <br>
         </div>

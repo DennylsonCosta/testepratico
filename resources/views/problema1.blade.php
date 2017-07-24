@@ -45,6 +45,7 @@
                     <li class="active"><a href="{{ route('Problema 1') }}">Problema 1</a></li>
                     <li><a href="{{ route('Problema 2') }}">Problema 2</a></li>
                     <li><a href="{{ route('Problema 3') }}">Problema 3</a></li>
+                    <li><a href="{{ route('Problema 4') }}">Problema 4</a></li>
                 </ul>
                 <br>
             </div>
@@ -63,19 +64,19 @@
                 <hr>
 
                 {{ Form::open(array('url' => 'problema1','action' => 'problema1Controller@recibo')) }}
-                <p>
-                    {{ Form::label('Titulo do livro', 'Título do Livro') }}
-                </p>
-                <p>
-                    <input type="text" name="titulo" required>
-                </p>
-                <p>
-                    {{ Form::radio('tipo', 'professor', true)}} Professor
-                    {{ Form::radio('tipo', 'aluno')}} Aluno
-                </p>
-                <p>
-                    {{ Form::submit('Emprestar', array('class' => 'btn btn-success')) }}
-                </p>
+                    <p>
+                        {{ Form::label('Titulo do livro', 'Título do Livro') }}
+                    </p>
+                    <p>
+                        <input type="text" name="titulo" required>
+                    </p>
+                    <p>
+                        {{ Form::radio('tipo', 'professor', true)}} Professor
+                        {{ Form::radio('tipo', 'aluno')}} Aluno
+                    </p>
+                    <p>
+                        {{ Form::submit('Emprestar', array('class' => 'btn btn-success')) }}
+                    </p>
                 {{ Form::close() }}
 
                 <hr>
