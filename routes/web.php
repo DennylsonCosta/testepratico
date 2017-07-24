@@ -17,3 +17,6 @@ Route::get('/', function () {
 
 Route::get('problema1', 'problema1Controller@index')->name('Problema 1');
 Route::post('problema1', 'problema1Controller@recibo');
+
+Route::get('problema2', 'problema2Controller@index')->name('Problema 2');
+Route::post('problema2', 'problema2Controller@gerar');

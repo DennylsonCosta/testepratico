@@ -3,6 +3,7 @@
 <head>
     <title>Problema 1</title>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
@@ -42,6 +43,7 @@
                 <ul class="nav nav-pills nav-stacked">
                     <li><a href="{{ route('home') }}">Home</a></li>
                     <li class="active"><a href="{{ route('Problema 1') }}">Problema 1</a></li>
+                    <li><a href="{{ route('Problema 2') }}">Problema 2</a></li>
                 </ul>
                 <br>
             </div>

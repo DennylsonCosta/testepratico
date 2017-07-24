@@ -40,6 +40,7 @@
             <ul class="nav nav-pills nav-stacked">
                 <li class="active"><a href="{{ route('home') }}">Home</a></li>
                 <li><a href="{{ route('Problema 1') }}">Problema 1</a></li>
+                <li><a href="{{ route('Problema 2') }}">Problema 2</a></li>
             </ul>
             <br>
         </div>
