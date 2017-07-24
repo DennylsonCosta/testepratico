@@ -26,3 +26,6 @@ Route::post('problema3', 'problema3Controller@exibir');
 
 Route::get('problema4', 'problema4Controller@index')->name('Problema 4');
 Route::post('problema4', 'problema4Controller@imprimir');
+
+Route::get('problema5', 'problema5Controller@index')->name('Problema 5');
+Route::post('problema5', 'problema5Controller@verifica');
