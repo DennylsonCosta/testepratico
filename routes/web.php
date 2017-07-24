@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('inicio');
+})->name('home');
+
+Route::get('problema1', 'problema1Controller@index')->name('Problema 1');
+Route::post('problema1', 'problema1Controller@recibo');
